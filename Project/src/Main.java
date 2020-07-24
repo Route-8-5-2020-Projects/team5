@@ -32,7 +32,7 @@ boolean alphabits=false,nums=false;
 
 
     public static void main(String[] args) {
-Shop shopA=new Shop();
+        Shop shopA=new Shop();
         Scanner scan=new Scanner(System.in);int sign=1;
         while(sign==1) {
             System.out.println("for Customer->>>press 1 \nfor Store->>>press2");
@@ -57,7 +57,7 @@ Shop shopA=new Shop();
 
                     }
                     else{
-                        System.out.println("try to register");
+                        System.out.println("customer doesn't exist try to register");
                     }
 
                 }
